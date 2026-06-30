@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce UI Modern</title>
+    <!-- Mengambil font Poppins dari Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <h1 class="logo">Toko<span>Kuliah</span></h1>
+            <div class="cart">
+                🛒 Keranjang: <span id="cart-count" class="badge">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header class="hero">
+        <h2>Koleksi Terbaru Kami</h2>
+        <p>Belanja barang favoritmu dengan harga terbaik mahasiswa.</p>
+    </header>
+
+    <!-- Container Utama untuk Katalog -->
+    <main class="container">
+        <div id="product-container" class="product-grid">
+            <!-- Kartu produk akan di-generate oleh JavaScript di sini -->
+        </div>
+    </main>
+
+    <!-- Notifikasi Toast (Muncul saat tambah keranjang) -->
+    <div id="toast" class="toast">Berhasil ditambahkan ke keranjang!</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
